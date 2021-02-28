@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <AssemblyName>Blogpost.DependecnyInjection</AssemblyName>
+    <RootNamespace>Blogpost.DependecnyInjection</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Core\Core.csproj" />
+    <ProjectReference Include="..\Infrasturcture\Infrasturcture.csproj" />
+  </ItemGroup>
+
+</Project>
